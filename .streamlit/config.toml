@@ -1,0 +1,11 @@
+[server]
+# Expand the maximum upload limits to 100MB
+maxUploadSize = 100
+maxMessageSize = 100
+
+# Strict mobile browser proxy bypasses
+enableXsrfProtection = false
+enableCORS = false
+
+[client]
+showErrorDetails = true
